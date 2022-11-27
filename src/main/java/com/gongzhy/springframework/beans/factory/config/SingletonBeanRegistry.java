@@ -2,7 +2,6 @@ package com.gongzhy.springframework.beans.factory.config;
 
 /**
  * @description 单例 Bean 注册表
- * @date 2022/03/07
  */
 public interface SingletonBeanRegistry {
 

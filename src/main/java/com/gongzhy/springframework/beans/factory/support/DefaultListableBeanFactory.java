@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 核心实现类
+ *
  * @description 默认的Bean工厂实现类
  * @date 2022/03/07
  */
