@@ -1,25 +1,19 @@
 package com.gongzhy.springframework.test.bean;
 
 
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@Data
 public class UserService {
 
-    private String name;
+    private String uId;
 
-    public UserService(String name) {
-        this.name = name;
-    }
+    private UserDao userDao;
 
     public void queryUserInfo() {
-        System.out.println("查询用户信息：" + name);
+        System.out.println("查询用户信息：" + userDao.queryUserName(uId));
     }
 
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("");
-        sb.append("").append(name);
-        return sb.toString();
-    }
 }
