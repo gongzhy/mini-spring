@@ -1,4 +1,4 @@
-package com.gongzhy.springframework.beans;
+package com.gongzhy.springframework.core.excption;
 
 /**
  *

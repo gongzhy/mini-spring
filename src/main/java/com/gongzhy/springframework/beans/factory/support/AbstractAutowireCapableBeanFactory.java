@@ -2,7 +2,7 @@ package com.gongzhy.springframework.beans.factory.support;
 
 
 import cn.hutool.core.bean.BeanUtil;
-import com.gongzhy.springframework.beans.BeansException;
+import com.gongzhy.springframework.core.excption.BeansException;
 import com.gongzhy.springframework.beans.PropertyValue;
 import com.gongzhy.springframework.beans.PropertyValues;
 import com.gongzhy.springframework.beans.factory.config.BeanDefinition;
