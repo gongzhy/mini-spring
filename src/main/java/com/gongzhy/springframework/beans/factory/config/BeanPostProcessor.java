@@ -4,11 +4,7 @@ package com.gongzhy.springframework.beans.factory.config;
 import com.gongzhy.springframework.core.excption.BeansException;
 
 /**
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
  * @description 用于修改新实例化 Bean 对象的扩展点
- * @date 2022/3/10
- * /CodeDesignTutorials
  */
 public interface BeanPostProcessor {
 

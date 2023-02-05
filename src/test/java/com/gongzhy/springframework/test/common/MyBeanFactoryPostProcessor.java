@@ -8,10 +8,7 @@ import com.gongzhy.springframework.beans.factory.config.BeanFactoryPostProcessor
 import com.gongzhy.springframework.core.excption.BeansException;
 
 /**
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
  * @description BeanFactoryPostProcessor 实例化 Bean 对象之前，修改 BeanDefinition 属性
- * @date 2022/03/10
  */
 public class MyBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
 

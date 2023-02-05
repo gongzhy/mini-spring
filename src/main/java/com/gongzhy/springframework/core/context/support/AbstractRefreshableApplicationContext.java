@@ -5,8 +5,6 @@ import com.gongzhy.springframework.beans.factory.support.DefaultListableBeanFact
 import com.gongzhy.springframework.core.excption.BeansException;
 
 /**
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
  * @description 抽象基类刷新应用上下文 Base class for {@link com.gongzhy.springframework.core.context.ApplicationContext}
  * implementations which are supposed to support multiple calls to {@link #refresh()},
  * creating a new internal bean factory instance every time.

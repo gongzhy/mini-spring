@@ -5,8 +5,6 @@ import com.gongzhy.springframework.core.excption.BeansException;
 
 /**
  * @description 允许自定义修改 BeanDefinition 属性信息
- * @date 2022/3/10
- * /CodeDesignTutorials
  */
 public interface BeanFactoryPostProcessor {
 

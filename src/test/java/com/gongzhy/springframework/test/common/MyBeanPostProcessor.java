@@ -5,10 +5,7 @@ import com.gongzhy.springframework.core.excption.BeansException;
 import com.gongzhy.springframework.test.bean.UserService;
 
 /**
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
  * @description BeanPostProcessor 在 Bean 对象执行初始化方法前后进行扩展
- * @date 2022/03/10
  */
 public class MyBeanPostProcessor implements BeanPostProcessor {
 

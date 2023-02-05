@@ -5,15 +5,9 @@ import com.gongzhy.springframework.core.io.DefaultResourceLoader;
 import com.gongzhy.springframework.core.io.ResourceLoader;
 
 /**
- *
- *
- *
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  * @description Abstract base class for bean definition readers which implement
  * the {@link com.gongzhy.springframework.beans.factory.support.BeanDefinitionReader} interface.
  * @date 2022/3/9
- *
- *
  */
 public abstract class AbstractBeanDefinitionReader implements BeanDefinitionReader {
 

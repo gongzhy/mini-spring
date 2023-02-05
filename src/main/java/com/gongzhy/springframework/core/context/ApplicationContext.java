@@ -4,8 +4,6 @@ package com.gongzhy.springframework.core.context;
 import com.gongzhy.springframework.beans.factory.ListableBeanFactory;
 
 /**
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
  * @description 应用上下文接口 Central interface to provide configuration for an application.
  * This is read-only while the application is running, but may be
  * reloaded if the implementation supports this.

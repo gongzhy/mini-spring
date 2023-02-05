@@ -8,7 +8,6 @@ import com.gongzhy.springframework.beans.factory.HierarchicalBeanFactory;
  * facilities to configure a bean factory, in addition to the bean factory
  * client methods in the {@link com.gongzhy.springframework.beans.factory.BeanFactory}
  * interface.
- * @date 2022/3/9
  */
 public interface ConfigurableBeanFactory extends HierarchicalBeanFactory, SingletonBeanRegistry {
 

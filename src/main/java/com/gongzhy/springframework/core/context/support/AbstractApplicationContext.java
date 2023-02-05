@@ -10,9 +10,7 @@ import com.gongzhy.springframework.core.io.DefaultResourceLoader;
 import java.util.Map;
 
 /**
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
- * @description 抽象应用上下文 Abstract implementation of the {@link com.gongzhy.springframework.context.ApplicationContext}
+ * @description 抽象应用上下文 Abstract implementation of the {@link com.gongzhy.springframework.core.context.ApplicationContext}
  * interface. Doesn't mandate the type of storage used for configuration; simply
  * implements common context functionality. Uses the Template Method design pattern,
  * requiring concrete subclasses to implement abstract methods.
