@@ -9,7 +9,8 @@ import lombok.extern.slf4j.Slf4j;
 public class UserService {
 
     private String uId;
-
+    private String company;
+    private String location;
     private UserDao userDao;
 
     public String queryUserInfo() {
