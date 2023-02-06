@@ -4,12 +4,9 @@ import com.gongzhy.springframework.beans.factory.support.DefaultListableBeanFact
 import com.gongzhy.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 
 /**
- * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
  * @description 抽象基类 XML 上下文 Convenient base class for {@link com.gongzhy.springframework.core.context.ApplicationContext}
  * implementations, drawing configuration from XML documents containing bean definitions
  * understood by an {@link com.gongzhy.springframework.beans.factory.xml.XmlBeanDefinitionReader}.
- * @date 2022/3/10
  */
 public abstract class AbstractXmlApplicationContext extends AbstractRefreshableApplicationContext {
 

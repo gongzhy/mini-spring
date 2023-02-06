@@ -8,7 +8,6 @@ import com.gongzhy.springframework.core.excption.BeansException;
  * Provides facilities to configure an application context in addition
  * to the application context client methods in the
  * {@link com.gongzhy.springframework.core.context.ApplicationContext} interface.
- * @date 2022/3/10
  */
 public interface ConfigurableApplicationContext extends ApplicationContext {
 

@@ -10,7 +10,6 @@ import com.gongzhy.springframework.core.excption.BeansException;
  * creating a new internal bean factory instance every time.
  * Typically (but not necessarily), such a context will be driven by
  * a set of config locations to load bean definitions from.
- * @date 2022/3/10
  */
 public abstract class AbstractRefreshableApplicationContext extends AbstractApplicationContext {
 

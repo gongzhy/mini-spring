@@ -5,8 +5,6 @@ import lombok.Getter;
 
 /**
  * @description Bean 属性信息
- * @date 2022/3/9
- * /CodeDesignTutorials
  */
 @Getter
 @AllArgsConstructor

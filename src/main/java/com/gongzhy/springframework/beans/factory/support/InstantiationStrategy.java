@@ -8,7 +8,6 @@ import java.lang.reflect.Constructor;
 
 /**
  * @description Bean 实例化策略接口
- * @date 2022/03/08
  */
 public interface InstantiationStrategy {
 

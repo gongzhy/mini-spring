@@ -2,7 +2,6 @@ package com.gongzhy.springframework.core.io;
 
 /**
  * @description 资源加载器
- * @date 2022/3/9
  */
 public interface ResourceLoader {
 

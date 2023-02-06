@@ -19,7 +19,6 @@ import java.io.InputStream;
 
 /**
  * @description Bean definition reader for XML bean definitions.
- * @date 2022/3/9
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 

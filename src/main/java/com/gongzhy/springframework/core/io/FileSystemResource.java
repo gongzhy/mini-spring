@@ -7,7 +7,6 @@ import java.io.InputStream;
 
 /**
  * @description 文件资源
- * @date 2022/3/9
  */
 public class FileSystemResource implements Resource {
 

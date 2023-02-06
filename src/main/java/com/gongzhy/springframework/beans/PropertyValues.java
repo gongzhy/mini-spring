@@ -5,8 +5,6 @@ import java.util.List;
 
 /**
  * @description 属性值集合
- * @date 2022/3/9
- * /CodeDesignTutorials
  */
 public class PropertyValues {
 

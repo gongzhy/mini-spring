@@ -1,21 +1,19 @@
 package com.gongzhy.springframework.beans.factory.support;
 
-
 import cn.hutool.core.bean.BeanUtil;
-import com.gongzhy.springframework.beans.factory.config.AutowireCapableBeanFactory;
-import com.gongzhy.springframework.beans.factory.config.BeanPostProcessor;
-import com.gongzhy.springframework.core.excption.BeansException;
 import com.gongzhy.springframework.beans.PropertyValue;
 import com.gongzhy.springframework.beans.PropertyValues;
+import com.gongzhy.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import com.gongzhy.springframework.beans.factory.config.BeanDefinition;
+import com.gongzhy.springframework.beans.factory.config.BeanPostProcessor;
 import com.gongzhy.springframework.beans.factory.config.BeanReference;
+import com.gongzhy.springframework.core.excption.BeansException;
 import lombok.Data;
 
 import java.lang.reflect.Constructor;
 
 /**
  * @description 实现默认bean创建的抽象bean工厂超类
- * @date 2022/03/07
  */
 @Data
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory implements AutowireCapableBeanFactory {
@@ -24,7 +22,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 
     @Override
     protected Object createBean(String beanName, BeanDefinition beanDefinition, Object[] args) throws BeansException {
-        Object bean = null;
+        Object bean;
         try {
             bean = createBeanInstance(beanDefinition, beanName, args);
             // 给 Bean 填充属性

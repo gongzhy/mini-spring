@@ -11,8 +11,6 @@ import java.util.Map;
  * by name one by one as requested by clients. BeanFactory implementations that
  * preload all their bean definitions (such as XML-based factories) may implement
  * this interface.
- * @date 2022/3/9
- * /CodeDesignTutorials
  */
 public interface ListableBeanFactory extends BeanFactory {
 

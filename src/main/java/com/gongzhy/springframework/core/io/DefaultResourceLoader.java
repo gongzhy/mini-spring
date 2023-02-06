@@ -7,7 +7,6 @@ import java.net.URL;
 
 /**
  * @description 默认实现的资源处理器
- * @date 2022/3/9
  */
 public class DefaultResourceLoader implements ResourceLoader {
 
